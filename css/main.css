@@ -1,5 +1,11 @@
 body {
   background-color: black;
-  color: white;
+  color: #eeeeee;
   text-align: center;
   padding-top: 5%; }
+
+.headings {
+  font-family: arial, sans-serif; }
+
+.nav-wrapper, .page-footer {
+  background-color: rgba(66, 238, 244, 0.7); }
