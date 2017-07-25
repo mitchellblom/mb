@@ -31,5 +31,16 @@ nav {
   background-color: #c4c4c4; }
 
 .footer {
-  height: 10%;
+  height: 7%;
   display: inline-block; }
+
+.bigname {
+  transform: rotate(-28deg); }
+
+.vertalign {
+  height: 100%;
+  margin-left: 30%; }
+
+.icon {
+  height: 30px;
+  width: 30px; }
