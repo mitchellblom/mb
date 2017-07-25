@@ -1,11 +1,35 @@
 body {
-  background-color: black;
-  color: #eeeeee;
+  width: 100%;
+  background-color: #eeeeee;
+  background: url("/images/stripeback3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #424242;
   text-align: center;
-  padding-top: 5%; }
+  margin: 0; }
+
+.page-flexbox-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 1 auto; }
+
+nav {
+  height: 7%;
+  padding-left: 5%;
+  border: none; }
 
 .headings {
-  font-family: arial, sans-serif; }
+  font-family: arial, sans-serif;
+  color: #eeeeee; }
 
-.nav-wrapper, .page-footer {
-  background-color: rgba(66, 238, 244, 0.7); }
+.page-footer {
+  background-color: #c4c4c4; }
+
+.footer {
+  height: 10%;
+  display: inline-block; }
