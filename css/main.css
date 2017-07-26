@@ -35,7 +35,9 @@ nav {
   display: inline-block; }
 
 .bigname {
-  transform: rotate(-28deg); }
+  transform: rotate(-28deg);
+  text-shadow: 1px 1px 1px #c4c4c4, 0 0 1em #eeeeee, 0 0 0.1em #eeeeee;
+  font-family: Chicle, sans-serif; }
 
 .vertalign {
   height: 100%;
