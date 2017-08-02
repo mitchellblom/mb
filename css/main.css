@@ -36,8 +36,8 @@ nav {
 
 .bigname {
   transform: rotate(-28deg);
-  text-shadow: 1px 1px 1px #c4c4c4, 0 0 1em #eeeeee, 0 0 0.1em #eeeeee;
-  font-family: Chicle, sans-serif; }
+  color: #eeeeee;
+  font-family: 'Permanent Marker', sans-serif; }
 
 .vertalign {
   height: 100%;

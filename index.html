@@ -1,47 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mitchell Blom</title>
-	<link rel="icon" type="image/png" href="./images/mb-icon.png">
-	<link href="https://fonts.googleapis.com/css?family=Chicle|PT+Sans+Caption" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">   
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<head>
+		<title>Mitchell Blom</title>
+		<link rel="icon" type="image/png" href="./images/mb-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quattrocento+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">   
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	</head>
+	<body ng-app="MBportfolio">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-</head>
-<body>
-	<div class="page-flexbox-wrapper">
-		<header>
-		</header>
-
-		<nav class="transparent z-depth-0">
-			<div class="left-nav left">
-				<ul class="right">
-					<li><a href="sass.html"><img class="icon" src="./images/linkedin-icon.png" alt="linkedin icon"/>Linkedin</a></li>
-					<li><a href="badges.html"><img class="icon" src="./images/github-icon.png" alt="github icon"/>Github</a></li>
-				</ul>
-			</div>
-		</nav>
+		<div class="page-flexbox-wrapper">   
+			<div ng-include="'partials/nav.html'"></div>
+			<main ng-view class="container view-box"></main>
+			<div ng-include="'partials/footer.html'"></div>
+		</div>   
 		
-		<main class="container valign-wrapper">
-			<div class="vertalign">
-				<h1 class="bigname centertext">Mitchell Blom</h1>
-			</div>
-		</main>
+		<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+		<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="./dist/bundle.js"></script> 
 
-		<footer class="footer">
-			<div class="col l6 s12 container">
-				<h5 class="white-text">Footer</h5>
-				<p class="grey-text text-lighten-4">Do I want much text here?</p>
-			</div>
-			<div class="footer-copyright">
-			<div class="container">
-			© 2017 Copyright M. Blom
-			<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-		</footer>
-
-	</div>
-	<script type="text/javascript" src="./dist/app.js"></script>
-
-</body>
+	</body>
 </html>

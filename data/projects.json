@@ -1,0 +1,64 @@
+{
+  "projects": {
+    "capstone": {
+      "title": "TripEZ",
+      "thumbnail": "./images/tripez-thumb.png",
+      "brief": "",
+      "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
+      "available": true,
+      "url": "https://mytinerary-ffb62.firebaseapp.com",
+      "github": "https://github.com/mitchellblom/TripEZ",
+      "description": "Behind the Scenes:",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      },
+      "iframeScroll": "no"
+    },
+    "capstone2": {
+      "title": "TripEZ",
+      "thumbnail": "./images/tripez-thumb.png",
+      "brief": "",
+      "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
+      "available": true,
+      "url": "https://mytinerary-ffb62.firebaseapp.com",
+      "github": "https://github.com/mitchellblom/TripEZ",
+      "description": "Behind the Scenes:",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      },
+      "iframeScroll": "no"
+    },
+    "capstone3": {
+      "title": "TripEZ",
+      "thumbnail": "./images/tripez-thumb.png",
+      "brief": "",
+      "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
+      "available": true,
+      "url": "https://mytinerary-ffb62.firebaseapp.com",
+      "github": "https://github.com/mitchellblom/TripEZ",
+      "description": "Behind the Scenes:",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      },
+      "iframeScroll": "no"
+    },
+    "capstone4": {
+      "title": "TripEZ",
+      "thumbnail": "./images/tripez-thumb.png",
+      "brief": "",
+      "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
+      "available": true,
+      "url": "https://mytinerary-ffb62.firebaseapp.com",
+      "github": "https://github.com/mitchellblom/TripEZ",
+      "description": "Behind the Scenes:",
+      "iframeDimensions": {
+        "width": 538,
+        "height": 712
+      },
+      "iframeScroll": "no"
+    }
+  }
+}
