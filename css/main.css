@@ -39,7 +39,7 @@ nav {
   transform: rotate(-27deg);
   color: #eeeeee;
   font-family: 'Permanent Marker', sans-serif;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; }
 
 .vertalign {
@@ -50,3 +50,8 @@ nav {
   height: 30px;
   width: 30px;
   margin-right: 5px; }
+
+.sign {
+  transform: rotate(-4deg);
+  max-height: 300px;
+  max-width: 300px; }
