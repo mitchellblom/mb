@@ -3,7 +3,7 @@
     "capstone": {
       "title": "TripEZ",
       "thumbnail": "./images/tripez-thumb.png",
-      "brief": "",
+      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
       "url": "https://mytinerary-ffb62.firebaseapp.com",
@@ -18,7 +18,7 @@
     "capstone2": {
       "title": "TripEZ",
       "thumbnail": "./images/tripez-thumb.png",
-      "brief": "",
+      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
       "url": "https://mytinerary-ffb62.firebaseapp.com",
@@ -33,7 +33,7 @@
     "capstone3": {
       "title": "TripEZ",
       "thumbnail": "./images/tripez-thumb.png",
-      "brief": "",
+      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
       "url": "https://mytinerary-ffb62.firebaseapp.com",

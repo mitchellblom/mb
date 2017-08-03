@@ -1,7 +1,7 @@
 body {
   width: 100%;
   background-color: #eeeeee;
-  background: url("/images/stripeback3.png") no-repeat center center fixed;
+  background: url("/images/back5.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,17 +39,26 @@ nav {
   transform: rotate(-27deg);
   color: #eeeeee;
   font-family: 'Permanent Marker', sans-serif;
+  margin-left: -220px;
+  margin-top: 35px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; }
-
-.vertalign {
-  height: 100%;
-  margin-top: 5vh; }
 
 .icon {
   height: 30px;
   width: 30px;
   margin-right: 5px; }
+
+.menu-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 5%; }
+
+.menu-icon:hover {
+  zoom: 110%;
+  box-shadow: 0 0 12px #eeeeee;
+  border-radius: 100%; }
 
 .sign {
   transform: rotate(-4deg);
