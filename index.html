@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MB</title>
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-</head>
-<body>
+	<head>
+		<title>Mitchell Blom</title>
+		<link rel="icon" type="image/png" href="./images/mb-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quattrocento+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">   
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	</head>
+	<body ng-app="MBportfolio">
 
-<h1>Wonderful!</h1>
+		<div class="page-flexbox-wrapper">   
+			<div ng-include="'partials/nav.html'"></div>
+			<main ng-view class="container view-box"></main>
+			<div ng-include="'partials/footer.html'"></div>
+		</div>
+		
+		<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+		<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="./dist/bundle.js"></script> 
 
-<script type="text/javascript" src="./dist/app.js"></script>
-
-</body>
+	</body>
 </html>

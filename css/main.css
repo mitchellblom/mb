@@ -1,5 +1,57 @@
 body {
-  background-color: black;
-  color: white;
+  width: 100%;
+  background-color: #eeeeee;
+  background: url("/images/stripeback3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #424242;
   text-align: center;
-  padding-top: 5%; }
+  margin: 0; }
+
+.page-flexbox-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 1 auto; }
+
+nav {
+  height: 7%;
+  padding-left: 5%;
+  border: none; }
+
+.headings {
+  font-family: arial, sans-serif;
+  color: #eeeeee; }
+
+.page-footer {
+  background-color: #c4c4c4; }
+
+.footer {
+  height: 7%;
+  display: inline-block;
+  padding-bottom: 15px; }
+
+.bigname {
+  transform: rotate(-27deg);
+  color: #eeeeee;
+  font-family: 'Permanent Marker', sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; }
+
+.vertalign {
+  height: 100%;
+  margin-top: 5vh; }
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px; }
+
+.sign {
+  transform: rotate(-4deg);
+  max-height: 300px;
+  max-width: 300px; }
