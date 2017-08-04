@@ -84,7 +84,9 @@ nav {
 }
 
 .sign {
+	position: absolute;
 	transform: rotate(-4deg);
-	max-height: 300px;
-	max-width: 300px;
+	right: 60vh;
+	max-height: 400px;
+	max-width: 400px;
 }
