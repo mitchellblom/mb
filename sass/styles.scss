@@ -21,7 +21,7 @@ body {
 }
 
 main {
-	flex: 1 1 auto;
+	flex: .75 .75 auto;
 }
 
 nav {
@@ -81,6 +81,13 @@ nav {
 	zoom: 110%;
 	box-shadow: 0 0 12px $white;
 	border-radius: 100%;
+}
+
+.menu-ul {
+	display: flex;
+	flex: .15 .15 auto;
+	flex-direction: column;
+	max-width: 15vw;
 }
 
 .sign {
