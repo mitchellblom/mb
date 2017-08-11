@@ -8,7 +8,8 @@ body {
   background-size: cover;
   color: #424242;
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  position: relative; }
 
 .page-flexbox-wrapper {
   display: flex;
@@ -16,7 +17,7 @@ body {
   flex-direction: column; }
 
 main {
-  flex: .75 .75 auto; }
+  display: fixed; }
 
 nav {
   height: 7%;
@@ -61,10 +62,16 @@ nav {
   border-radius: 100%; }
 
 .menu-ul {
-  display: flex;
   flex: .15 .15 auto;
   flex-direction: column;
-  max-width: 15vw; }
+  width: 15%; }
+
+.menu-container {
+  position: fixed;
+  margin-left: 85%; }
+
+.menu-label {
+  height: 100%; }
 
 .sign {
   position: absolute;

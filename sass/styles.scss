@@ -12,6 +12,7 @@ body {
 	color: $darkgray;
 	text-align: center;
 	margin: 0;
+	position: relative;
 }
 
 .page-flexbox-wrapper {
@@ -21,7 +22,8 @@ body {
 }
 
 main {
-	flex: .75 .75 auto;
+	display: fixed;
+	// flex: .75 .75 auto;
 }
 
 nav {
@@ -73,10 +75,6 @@ nav {
 	margin-right: 5%;
 }
 
-// .menu-p {
-// 	color: white;
-// }
-
 .menu-icon:hover {
 	zoom: 110%;
 	box-shadow: 0 0 12px $white;
@@ -84,10 +82,22 @@ nav {
 }
 
 .menu-ul {
-	display: flex;
 	flex: .15 .15 auto;
 	flex-direction: column;
-	max-width: 15vw;
+	width: 15%;
+}
+
+// .menu-ul > * {
+// 	flex-direction: row;
+// }
+
+.menu-container {
+	position: fixed; 
+	margin-left: 85%;
+}
+
+.menu-label {
+	height: 100%;
 }
 
 .sign {
