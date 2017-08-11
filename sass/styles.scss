@@ -43,12 +43,22 @@ nav {
 
 .footer {
 	height: 7%;
-	display: inline-block;
+	display: fixed;
 	padding-bottom: 15px;
 }
 
 .bigname {
 	transform: rotate(-27deg);
+	color: $white;
+	font-family: 'Permanent Marker', sans-serif;
+	margin-left: -220px;
+	margin-top: 35px;
+	-webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.bigname2 {
+	// transform: rotate(-27deg);
 	color: $white;
 	font-family: 'Permanent Marker', sans-serif;
 	margin-left: -220px;
@@ -87,10 +97,6 @@ nav {
 	width: 15%;
 }
 
-// .menu-ul > * {
-// 	flex-direction: row;
-// }
-
 .menu-container {
 	position: fixed; 
 	margin-left: 85%;
@@ -106,4 +112,12 @@ nav {
 	right: 60vh;
 	max-height: 400px;
 	max-width: 400px;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 370px solid transparent;
+  border-right: 470px solid transparent;
+  border-bottom: 270px solid yellow;
 }
