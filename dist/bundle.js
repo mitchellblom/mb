@@ -7,7 +7,7 @@ app.run(function($location, $rootScope) {});
 
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/home", {
+    .when("/about", {
         templateUrl: "partials/about.html",
         controller:  "AboutCtrl"
     })
@@ -16,7 +16,6 @@ app.config(function($routeProvider) {
         controller:  "projectShowCtrl",
     })
     .otherwise("/about");
-
 });;"use strict";
 
 app.controller("AboutCtrl", function($location, $scope) {
