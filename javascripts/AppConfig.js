@@ -8,9 +8,21 @@ app.config(function($routeProvider) {
         templateUrl: "partials/about.html",
         controller:  "AboutCtrl"
     })
+    .when("/projects", {
+        templateUrl: "partials/project-list.html",
+        controller:  "ProjectsCtrl"
+    })
+    .when("/tech", {
+        templateUrl: "partials/tech.html",
+        controller:  "TechCtrl"
+    })
+    .when("/fun", {
+        templateUrl: "partials/fun.html",
+        controller:  "AboutCtrl"
+    })
     .when("/project/:projectName", {
         templateUrl: "partials/project-show.html",
-        controller:  "projectShowCtrl",
+        controller:  "ProjectShowCtrl",
     })
     .otherwise("/about");
 });

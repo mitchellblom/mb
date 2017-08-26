@@ -1,12 +1,14 @@
 @import "fonts";
 @import "colors";
 
+// GLOBAL
+
 body {
+	position: relative;
 	width: 100%;
 	color: $darkgray;
 	text-align: center;
 	margin: 0;
-	position: relative;
 }
 
 .custom-back {
@@ -21,21 +23,27 @@ body {
 
 .page-flexbox-wrapper {
 	display: flex;
-  min-height: 100vh;
+  min-height: 100%;
 	flex-direction: column;
-	background-color:rgba(255, 255, 255, 0.8);
+	background-color:rgba(255, 255, 255, 0.7);
 }
 
 main {
-	height: 30vh;
+	height: 70vh;
 	width: 70vw !important;
-	margin: 15% !important;
 }
 
 .headings {
 	font-family: arial, sans-serif;
 	color: $white;
 }
+
+a {
+	color: $linkblue;
+}
+
+//// GLOBAL END
+// FOOTER
 
 .page-footer {
 	background-color: $silver;
@@ -54,15 +62,8 @@ footer {
 
 }
 
-.bigname {
-	color: $white;
-	font-family: 'Permanent Marker', sans-serif;
-	margin-left: -220px;
-	margin-top: 185px;
-	width: 400px;
-	-webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-}
+//// FOOTER END
+// MENU
 
 .icon {
 	height: 30px;
@@ -92,21 +93,35 @@ footer {
 .menu-container {
 	position: fixed; 
 	margin-left: 85%;
-	padding-top: 10%;
 }
 
 .menu-label {
 	height: 100%;
+	font-weight: bold;
 }
 
-.tri-div {
-  position: fixed;
-  top: -40px;
-  left: -160px;
-  width: 0;
-	height: 0;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
-	border-bottom: 250px solid lightgreen;
-	transform: rotate(-45deg);
+//// MENU END
+// TOP BIO
+
+.bio-div {
+	flex-direction: row;
+	
+	img {
+		height: 125px;
+    width: 125px;
+		border-radius: 100%;
+		margin: 1% 2%;
+	}
+	
 }
+
+.bigname {
+	color: $white;
+	font-family: 'Permanent Marker', sans-serif;
+	width: 40%;
+	margin-left: -10%;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: $darkestgreen;
+}
+
+// TOP BIO END
