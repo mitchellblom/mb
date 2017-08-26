@@ -18,7 +18,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: rgba(255, 255, 255, 0.7); }
 
 main {
   height: 30vh;
@@ -80,12 +80,18 @@ footer {
   height: 100%; }
 
 .tri-div {
+  display: inline;
   position: fixed;
   top: -40px;
   left: -160px;
   width: 0;
   height: 0;
   border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
-  border-bottom: 250px solid lightgreen;
-  transform: rotate(-45deg); }
+  border-right: 250px solid transparent; }
+  .tri-div img {
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    height: 125px;
+    width: 125px;
+    border-radius: 100%; }
