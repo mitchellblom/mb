@@ -1,28 +1,35 @@
 body {
   width: 100%;
-  background-color: #eeeeee;
-  background: url("/images/back5.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: #424242;
   text-align: center;
   margin: 0;
   position: relative; }
 
+.custom-back {
+  width: 100%;
+  background: url("/images/semuc.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -999; }
+
 .page-flexbox-wrapper {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8); }
 
 main {
-  display: fixed; }
+  height: 80%;
+  width: 70vw !important;
+  margin: 15% !important; }
 
 nav {
+  position: fixed;
   height: 7%;
-  padding-left: 5%;
-  border: none; }
+  border: none;
+  z-index: 999; }
 
 .headings {
   font-family: arial, sans-serif;
@@ -37,19 +44,11 @@ nav {
   padding-bottom: 15px; }
 
 .bigname {
-  transform: rotate(-27deg);
   color: #eeeeee;
   font-family: 'Permanent Marker', sans-serif;
   margin-left: -220px;
-  margin-top: 35px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black; }
-
-.bigname2 {
-  color: #eeeeee;
-  font-family: 'Permanent Marker', sans-serif;
-  margin-left: -220px;
-  margin-top: 35px;
+  margin-top: 185px;
+  width: 400px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; }
 
@@ -76,21 +75,19 @@ nav {
 
 .menu-container {
   position: fixed;
-  margin-left: 85%; }
+  margin-left: 85%;
+  padding-top: 10%; }
 
 .menu-label {
   height: 100%; }
 
-.sign {
-  position: absolute;
-  transform: rotate(-4deg);
-  right: 60vh;
-  max-height: 400px;
-  max-width: 400px; }
-
 .arrow-up {
+  position: fixed;
+  top: -40px;
+  left: -160px;
   width: 0;
   height: 0;
-  border-left: 370px solid transparent;
-  border-right: 470px solid transparent;
-  border-bottom: 270px solid yellow; }
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 250px solid lightgreen;
+  transform: rotate(-45deg); }

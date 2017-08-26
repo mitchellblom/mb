@@ -3,33 +3,40 @@
 
 body {
 	width: 100%;
-	background-color: $white;
-	background: url("/images/back5.png") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	color: $darkgray;
 	text-align: center;
 	margin: 0;
 	position: relative;
 }
 
+.custom-back {
+	width: 100%;
+	background: url("/images/semuc.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -999;
+}
+
 .page-flexbox-wrapper {
-  display: flex;
+	display: flex;
   min-height: 100vh;
 	flex-direction: column;
+	background-color:rgba(255, 255, 255, 0.8);
 }
 
 main {
-	display: fixed;
-	// flex: .75 .75 auto;
+	height: 80%;
+	width: 70vw !important;
+	margin: 15% !important;
 }
 
 nav {
+	position: fixed;
 	height: 7%;
-	padding-left: 5%;
 	border: none;
+	z-index: 999;
 }
 
 .headings {
@@ -48,29 +55,14 @@ nav {
 }
 
 .bigname {
-	transform: rotate(-27deg);
 	color: $white;
 	font-family: 'Permanent Marker', sans-serif;
 	margin-left: -220px;
-	margin-top: 35px;
+	margin-top: 185px;
+	width: 400px;
 	-webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
-
-.bigname2 {
-	// transform: rotate(-27deg);
-	color: $white;
-	font-family: 'Permanent Marker', sans-serif;
-	margin-left: -220px;
-	margin-top: 35px;
-	-webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-}
-
-// .vertalign {
-	// height: 100%;
-	// margin-top: 5vh;
-// }
 
 .icon {
 	height: 30px;
@@ -100,24 +92,21 @@ nav {
 .menu-container {
 	position: fixed; 
 	margin-left: 85%;
+	padding-top: 10%;
 }
 
 .menu-label {
 	height: 100%;
 }
 
-.sign {
-	position: absolute;
-	transform: rotate(-4deg);
-	right: 60vh;
-	max-height: 400px;
-	max-width: 400px;
-}
-
 .arrow-up {
-  width: 0; 
-  height: 0; 
-  border-left: 370px solid transparent;
-  border-right: 470px solid transparent;
-  border-bottom: 270px solid yellow;
+  position: fixed;
+  top: -40px;
+  left: -160px;
+  width: 0;
+	height: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+	border-bottom: 250px solid lightgreen;
+	transform: rotate(-45deg);
 }
