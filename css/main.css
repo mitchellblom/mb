@@ -21,15 +21,9 @@ body {
   background-color: rgba(255, 255, 255, 0.8); }
 
 main {
-  height: 80%;
+  height: 30vh;
   width: 70vw !important;
   margin: 15% !important; }
-
-nav {
-  position: fixed;
-  height: 7%;
-  border: none;
-  z-index: 999; }
 
 .headings {
   font-family: arial, sans-serif;
@@ -38,10 +32,14 @@ nav {
 .page-footer {
   background-color: #c4c4c4; }
 
-.footer {
+footer {
+  flex-direction: row;
+  align-content: space-around;
   height: 7%;
-  display: fixed;
-  padding-bottom: 15px; }
+  display: absolute; }
+  footer ul li {
+    display: inline-block;
+    margin: 0 3%; }
 
 .bigname {
   color: #eeeeee;
@@ -81,7 +79,7 @@ nav {
 .menu-label {
   height: 100%; }
 
-.arrow-up {
+.tri-div {
   position: fixed;
   top: -40px;
   left: -160px;

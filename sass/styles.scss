@@ -27,16 +27,9 @@ body {
 }
 
 main {
-	height: 80%;
+	height: 30vh;
 	width: 70vw !important;
 	margin: 15% !important;
-}
-
-nav {
-	position: fixed;
-	height: 7%;
-	border: none;
-	z-index: 999;
 }
 
 .headings {
@@ -48,10 +41,17 @@ nav {
 	background-color: $silver;
 }
 
-.footer {
+footer {
+	flex-direction: row;
+	align-content: space-around;
 	height: 7%;
-	display: fixed;
-	padding-bottom: 15px;
+	display: absolute;
+
+	ul li {
+		display: inline-block;
+		margin: 0 3%;
+	}
+
 }
 
 .bigname {
@@ -99,7 +99,7 @@ nav {
 	height: 100%;
 }
 
-.arrow-up {
+.tri-div {
   position: fixed;
   top: -40px;
   left: -160px;
