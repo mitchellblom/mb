@@ -1,6 +1,8 @@
 "use strict";
 
-app.run(function($location, $rootScope) {});
+var app = angular.module("MBportfolio", ["ngRoute"]);
+
+// app.run(function($location, $rootScope) {});
 
 app.config(function($routeProvider) {
     $routeProvider

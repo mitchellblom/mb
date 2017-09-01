@@ -1,9 +1,11 @@
-"use strict";
+// "use strict";
+
+// var app = angular.module("MBportfolio", ["ngRoute"]);
+// "ngAnimate", "ngRoute", "ngSanitize", "ngToast";"use strict";
 
 var app = angular.module("MBportfolio", ["ngRoute"]);
-// var app = angular.module("MBportfolio", ["ngAnimate", "ngRoute", "ngSanitize", "ngToast"]);;"use strict";
 
-app.run(function($location, $rootScope) {});
+// app.run(function($location, $rootScope) {});
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -46,6 +48,15 @@ app.controller("ProjectsCtrl", function($location, $scope) {
 
 });;"use strict";
 
-app.controller("TechCtrl", function($location, $scope) {
+app.controller("TechCtrl", function($location, $routeParams, $scope, TechFactory) {
+  console.log("inside tech ctrl");
+  // $scope.techs = [];
+
+  // TechFactory.getAllTechDetails().then((techs) => {
+  //   console.log(techs);
+  //   $scope.techs = techs;
+  // }).catch((error) => {
+  //   console.log(error);
+  // });
 
 });
