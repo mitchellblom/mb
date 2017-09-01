@@ -46,6 +46,14 @@ app.controller("ProjectsCtrl", function($location, $scope) {
 
 });;"use strict";
 
-app.controller("TechCtrl", function($location, $scope) {
+console.log("in tech ctrl");
+
+app.controller("TechCtrl", function($location, $scope, TechFactory) {
+  $scope.techs = [];
+
+  TechFactory.getAllTechDetails().then((techs) => {
+    $scope.techs = techs;
+    console.log(techs);
+  });
 
 });

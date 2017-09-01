@@ -107,8 +107,8 @@ footer {
 	flex-direction: row;
 	
 	img {
-		height: 125px;
-    width: 125px;
+		max-height: 125px;
+    max-width: auto;
 		border-radius: 100%;
 		margin: 1% 2%;
 	}

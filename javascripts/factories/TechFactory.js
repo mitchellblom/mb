@@ -10,13 +10,13 @@ app.factory('technologiesFactory', function ($q, $http) {
       $http.get(`../data/techs.json`)
       .success(function(returnObject){
         Object.keys(returnObject).forEach((key) => {
-          technologies.push(returnObject[key])
-          })
+          technologies.push(returnObject[key]);
+          });
           resolve(technologies[0]);
         })
         .error(function(error){
             reject(error);
-        })
+        });
     });
   };
 
