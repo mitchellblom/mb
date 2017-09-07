@@ -1,6 +1,6 @@
 {
   "projects": {
-    "capstone": {
+    "project0": {
       "title": "TripEZ",
       "thumbnail": "../images/projects/tripez-thumb.png",
       "brief": "AngularJS-powered vacation plans organized by Trip, Base, and Event JSON objects in the Firebase Web API. Base and Event searches interact with Google Places API for saving places to eat, stay, and see. Styling with UI-Bootstrap in SASS.",
@@ -14,7 +14,7 @@
       },
       "iframeScroll": "no"
     },
-    "capstone2": {
+    "project1": {
       "title": "Classfigher II",
       "thumbnail": "../images/projects/ii-thumb.png",
       "brief": "jQuery loaded SPA with AJAX calls querying user data from the Treehouse learning site. Pits users against each other and declares a winner along with animation of their badges.",
@@ -28,7 +28,7 @@
       },
       "iframeScroll": "no"
     },
-    "capstone3": {
+    "project2": {
       "title": "A Juicy Project",
       "thumbnail": "../images/projects/juice-thumb.png",
       "brief": "Python/Javascript full stack project demoing use of Flask micro framework to call and display Nutritionix API results. Also used Bootstrap for tables and D3 for visualizations.",
@@ -42,7 +42,7 @@
       },
       "iframeScroll": "no"
     },
-    "capstone4": {
+    "project3": {
       "title": "Bangazon API",
       "thumbnail": "../images/projects/bang-thumb.png",
       "brief": "Agile team written C#/NET Web API that makes each ERD resource available to the front end. Wrote and initialized a SQL database with seed data and migrated the database file edits. CRUD with database via command line and DB browser. ",

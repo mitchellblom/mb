@@ -105,3 +105,10 @@ footer {
   border: 1px solid black;
   height: 100px;
   width: 100px; }
+
+main.ng-enter {
+  transition: 0.2s linear all;
+  opacity: 0; }
+
+main.ng-enter.ng-enter-active {
+  opacity: 1; }

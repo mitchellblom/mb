@@ -1,139 +1,149 @@
 {
   "techs": [
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Sublime.png?raw=true",
+      "img": "../images/techs/Sublime.png",
       "name": "Sublime",
       "tags": ["node", "frontend", "tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/VisualStudioCode.png?raw=true",
+      "img": "../images/techs/VisualStudioCode.png",
       "name": "Visual Studio Code",
       "tags": ["C#", "tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/VisualStudio.png?raw=true",
+      "img": "../images/techs/VisualStudio.png",
       "name": "Visual Studio",
       "tags": ["C#", "tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Slack.png?raw=true",
+      "img": "../images/techs/Slack.png",
       "name": "Slack",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Trello.png?raw=true",
+      "img": "../images/techs/Trello.png",
       "name": "Trello",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Moqups.png?raw=true",
+      "img": "../images/techs/Moqups.png",
       "name": "Moqups",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/DrawIo.png?raw=true",
+      "img": "../images/techs/DrawIo.png",
       "name": "Draw.io",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Git.png?raw=true",
+      "img": "../images/techs/Git.png",
       "name": "Git",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Github.png?raw=true",
+      "img": "../images/techs/Github.png",
       "name": "Github",
       "tags": ["tools"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/NPM.png?raw=true",
+      "img": "../images/techs/NPM.png",
       "name": "NPM",
       "tags": ["tools", "node"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Bower.png?raw=true",
+      "img": "../images/techs/Bower.png",
       "name": "Bower",
       "tags": ["tools", "frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Gulp.png?raw=true",
-      "name": "Gulp",
-      "tags": ["tools"]
-    },
-    {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/AWS.png?raw=true",
-      "name": "AWS",
-      "tags": ["tools"]
-    },
-    {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/HTML5.png?raw=true",
+      "img": "../images/techs/HTML5.png",
       "name": "HTML",
       "tags": ["frontend", "language"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/CSS.png?raw=true",
+      "img": "../images/techs/CSS.png",
       "name": "CSS",
       "tags": ["frontend", "language"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Javascript.png?raw=true",
+      "img": "../images/techs/Javascript.png",
       "name": "JS, ES6",
       "tags": ["frontend", "language"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Bootstrap.png?raw=true",
+      "img": "../images/techs/Bootstrap.png",
       "name": "Bootstrap",
       "tags": ["frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Materialize.png?raw=true",
+      "img": "../images/techs/Materialize.png",
       "name": "Materialize",
       "tags": ["frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Sass.png?raw=true",
+      "img": "../images/techs/Sass.png",
       "name": "Sass",
       "tags": ["frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Angular.png?raw=true",
+      "img": "../images/techs/Angular.png",
       "name": "AngularJS",
       "tags": ["frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Browserify.png?raw=true",
+      "img": "../images/techs/Browserify.png",
       "name": "Browserify",
       "tags": ["frontend"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/ASPDotNet.png?raw=true",
+      "img": "../images/techs/ASPDotNet.png",
       "name": "ASP.NET",
       "tags": ["C#"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/LINQ.png?raw=true",
+      "img": "../images/techs/LINQ.png",
       "name": "LINQ",
       "tags": ["C#", "database"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/SQLite.png?raw=true",
+      "img": "../images/techs/SQLite.png",
       "name": "SQLite",
       "tags": ["C#", "database"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/SQLServer.png?raw=true",
+      "img": "../images/techs/SQLServer.png",
       "name": "SQLServer",
       "tags": ["C#", "database"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/Firebase.png?raw=true",
+      "img": "../images/techs/Firebase.png",
       "name": "Firebase",
       "tags": ["database"]
     },
     {
-      "img": "https://github.com/morecallan/technology-images/blob/master/TechnologyImages/CSharp.png?raw=true",
+      "img": "../images/techs/D3.png",
+      "name": "D3",
+      "tags": ["visualization"]
+    },
+    {
+      "img": "../images/techs/Flask.png",
+      "name": "Flask",
+      "tags": ["python", "tools"]
+    },
+    {
+      "img": "../images/techs/Python.png",
+      "name": "Python",
+      "tags": ["python", "backend"]
+    },
+    {
+      "img": "../images/techs/Xamarin.png",
+      "name": "Xamarin",
+      "tags": ["backend", "mobile"]
+    },
+    {
+      "img": "../images/techs/CSharp.png",
       "name": "C#",
-      "tags": ["C#"]
+      "tags": ["C#", "backend"]
     }
   ]
 }
