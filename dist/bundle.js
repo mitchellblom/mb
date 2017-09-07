@@ -26,6 +26,10 @@ app.config(function($routeProvider) {
         templateUrl: "partials/project-show.html",
         controller:  "ProjectShowCtrl",
     })
+    .when("/private-repo", {
+        templateUrl: "partials/private-repo.html",
+        controller:  "PrivateRepoCtrl",
+    })
     .otherwise("/about");
 });;"use strict";
 
@@ -39,6 +43,10 @@ app.controller("AboutCtrl", function($location, $scope) {
 
 app.controller("NavBarCtrl", function($routeParams, $scope) {
 
+});;"use strict";
+
+app.controller("PrivateRepoCtrl", function($location, $routeParams, $scope) {
+  
 });;"use strict";
 
 app.controller("ProjectsCtrl", function($location, $routeParams, $scope, ProjectsFactory) {

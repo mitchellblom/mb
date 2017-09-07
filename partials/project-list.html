@@ -3,12 +3,12 @@
       <h4>Notable Projects</h4>
       <div class="container project-container" ng-repeat="project in projects">
           <div class="project-card col s12 m6 l3" >
-            <h6>{{project.title}}</h6>
+            <h5>{{project.title}}</h5>
             <img src="{{project.thumbnail}}" alt="project-image" title="{{project.name}}"/>
             <p>{{project.brief}}</p>
-            <a href="{{project.url}}">See It Deployed</a>
+            <a href="{{project.url}}" target="_blank">See It Deployed</a>
             <br/>
-            <a href="{{project.github}}">See It On Github</a>
+            <a href="{{project.github}}" target="_blank">See It On Github</a>
           </div>
       </div>
     </div>

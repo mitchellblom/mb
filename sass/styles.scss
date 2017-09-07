@@ -143,9 +143,18 @@ footer {
 	display: absolute;
 }
 
+.project-card {
+	padding: 5%;
+}
+
 .project-container {
 	display: block;
 	border: 1px solid black;
+}
+
+.project-card img {
+	height: 100px;
+	width: 100px;
 }
 
 //// PROJECTS END

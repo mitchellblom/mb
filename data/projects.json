@@ -2,13 +2,12 @@
   "projects": {
     "capstone": {
       "title": "TripEZ",
-      "thumbnail": "../images/tripez-thumb.png",
-      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
+      "thumbnail": "../images/projects/tripez-thumb.png",
+      "brief": "AngularJS-powered vacation plans organized by Trip, Base, and Event JSON objects in the Firebase Web API. Base and Event searches interact with Google Places API for saving places to eat, stay, and see. Styling with UI-Bootstrap in SASS.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
       "url": "https://mytinerary-ffb62.firebaseapp.com",
       "github": "https://github.com/mitchellblom/TripEZ",
-      "description": "Behind the Scenes:",
       "iframeDimensions": {
         "width": 538,
         "height": 712
@@ -16,14 +15,13 @@
       "iframeScroll": "no"
     },
     "capstone2": {
-      "title": "TripEZ",
-      "thumbnail": "../images/tripez-thumb.png",
-      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
+      "title": "Classfigher II",
+      "thumbnail": "../images/projects/ii-thumb.png",
+      "brief": "jQuery loaded SPA with AJAX calls querying user data from the Treehouse learning site. Pits users against each other and declares a winner along with animation of their badges.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
-      "url": "https://mytinerary-ffb62.firebaseapp.com",
-      "github": "https://github.com/mitchellblom/TripEZ",
-      "description": "Behind the Scenes:",
+      "url": "https://mitchellblom.github.io/cageMatch/",
+      "github": "https://github.com/mitchellblom/cagematch",
       "iframeDimensions": {
         "width": 538,
         "height": 712
@@ -31,14 +29,13 @@
       "iframeScroll": "no"
     },
     "capstone3": {
-      "title": "TripEZ",
-      "thumbnail": "../images/tripez-thumb.png",
-      "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
+      "title": "A Juicy Project",
+      "thumbnail": "../images/projects/juice-thumb.png",
+      "brief": "Python/Javascript full stack project demoing use of Flask micro framework to call and display Nutritionix API results. Also used Bootstrap for tables and D3 for visualizations.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
-      "url": "https://mytinerary-ffb62.firebaseapp.com",
-      "github": "https://github.com/mitchellblom/TripEZ",
-      "description": "Behind the Scenes:",
+      "url": "https://mitchell-juicequiz.herokuapp.com/",
+      "github": "#!/private-repo",
       "iframeDimensions": {
         "width": 538,
         "height": 712
@@ -46,14 +43,13 @@
       "iframeScroll": "no"
     },
     "capstone4": {
-      "title": "TripEZ",
-      "thumbnail": "../images/tripez-thumb.png",
-      "brief": "",
+      "title": "Bangazon API",
+      "thumbnail": "../images/projects/bang-thumb.png",
+      "brief": "Agile team written C#/NET Web API that makes each ERD resource available to the front end. Wrote and initialized a SQL database with seed data and migrated the database file edits. CRUD with database via command line and DB browser. ",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
-      "url": "https://mytinerary-ffb62.firebaseapp.com",
-      "github": "https://github.com/mitchellblom/TripEZ",
-      "description": "Behind the Scenes:",
+      "url": "https://github.com/EnRonSwanson/BangazonAPI",
+      "github": "https://github.com/EnRonSwanson/BangazonAPI",
       "iframeDimensions": {
         "width": 538,
         "height": 712

@@ -26,5 +26,9 @@ app.config(function($routeProvider) {
         templateUrl: "partials/project-show.html",
         controller:  "ProjectShowCtrl",
     })
+    .when("/private-repo", {
+        templateUrl: "partials/private-repo.html",
+        controller:  "PrivateRepoCtrl",
+    })
     .otherwise("/about");
 });
