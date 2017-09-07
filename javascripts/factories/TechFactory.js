@@ -9,20 +9,22 @@ app.factory("TechFactory", function ($q, $http, $routeParams) {
 
     return $q(function(resolve, reject){
       $http.get(`../../data/techs.json`)
-      .success(function(result){
+      .then(function(result){
         Object.keys(result).forEach((key) => {
           techs.push(result[key]);
           });
           console.log(techs);
           resolve(techs[0]);
         })
-        .error(function(error){
+        .catch(function(error){
             reject(error);
         });
     });
 
   };
 
-  return {getAllTechDetails};
+  return {
+    getAllTechDetails
+  };
 
 });
