@@ -2,7 +2,7 @@
   "projects": {
     "capstone": {
       "title": "TripEZ",
-      "thumbnail": "./images/tripez-thumb.png",
+      "thumbnail": "../images/tripez-thumb.png",
       "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
@@ -17,7 +17,7 @@
     },
     "capstone2": {
       "title": "TripEZ",
-      "thumbnail": "./images/tripez-thumb.png",
+      "thumbnail": "../images/tripez-thumb.png",
       "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
@@ -32,7 +32,7 @@
     },
     "capstone3": {
       "title": "TripEZ",
-      "thumbnail": "./images/tripez-thumb.png",
+      "thumbnail": "../images/tripez-thumb.png",
       "brief": "Cool diddly about this one and more about whatever I decide to put here that the user will read about.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
@@ -47,7 +47,7 @@
     },
     "capstone4": {
       "title": "TripEZ",
-      "thumbnail": "./images/tripez-thumb.png",
+      "thumbnail": "../images/tripez-thumb.png",
       "brief": "",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,

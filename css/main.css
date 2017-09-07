@@ -22,7 +22,7 @@ body {
 
 main {
   height: 70vh;
-  width: 70vw !important; }
+  width: 90vw !important; }
 
 .headings {
   font-family: arial, sans-serif;
@@ -94,3 +94,10 @@ footer {
 .tech-card img {
   height: 50px;
   width: 50px; }
+
+.project-wrapper {
+  display: absolute; }
+
+.project-container {
+  display: block;
+  border: 1px solid black; }
