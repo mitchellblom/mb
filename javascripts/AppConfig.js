@@ -2,7 +2,7 @@
 
 var app = angular.module("MBportfolio", ["ngRoute"]);
 
-// app.run(function($location, $rootScope) {});
+app.run(function($location, $rootScope) {});
 
 app.config(function($routeProvider) {
     $routeProvider
