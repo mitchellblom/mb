@@ -22,7 +22,7 @@ body {
 
 main {
   height: 70vh;
-  width: 70vw !important; }
+  width: 90vw !important; }
 
 .headings {
   font-family: arial, sans-serif;
@@ -87,3 +87,28 @@ footer {
   margin-left: -10%;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #1d2315; }
+
+.tech-container {
+  flex-direction: row; }
+
+.tech-card img {
+  height: 50px;
+  width: 50px; }
+
+.project-wrapper {
+  display: absolute; }
+
+.project-card {
+  padding: 5%; }
+
+.project-card img {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px; }
+
+main.ng-enter {
+  transition: 0.2s linear all;
+  opacity: 0; }
+
+main.ng-enter.ng-enter-active {
+  opacity: 1; }

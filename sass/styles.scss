@@ -30,7 +30,7 @@ body {
 
 main {
 	height: 70vh;
-	width: 70vw !important;
+	width: 90vw !important;
 }
 
 .headings {
@@ -124,4 +124,45 @@ footer {
 	-webkit-text-stroke-color: $darkestgreen;
 }
 
-// TOP BIO END
+//// TOP BIO END
+// TECHS
+
+.tech-container {
+	flex-direction: row;
+}
+
+.tech-card img {
+	height: 50px;
+	width: 50px;
+}
+
+//// TECHS END
+// PROJECTS
+
+.project-wrapper {
+	display: absolute;
+}
+
+.project-card {
+	padding: 5%;
+}
+
+.project-card img {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+}
+
+//// PROJECTS END
+// ANIMATION
+
+main.ng-enter {
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+
+main.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+//// ANIMATIONS

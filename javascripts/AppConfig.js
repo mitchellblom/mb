@@ -2,7 +2,7 @@
 
 var app = angular.module("MBportfolio", ["ngRoute"]);
 
-// app.run(function($location, $rootScope) {});
+app.run(function($location, $rootScope) {});
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -25,6 +25,10 @@ app.config(function($routeProvider) {
     .when("/project/:projectName", {
         templateUrl: "partials/project-show.html",
         controller:  "ProjectShowCtrl",
+    })
+    .when("/private-repo", {
+        templateUrl: "partials/private-repo.html",
+        controller:  "PrivateRepoCtrl",
     })
     .otherwise("/about");
 });

@@ -1,14 +1,13 @@
 "use strict";
 
-app.controller("TechCtrl", function($location, $routeParams, $scope) {
-  console.log("inside tech ctrl");
-  // $scope.techs = [];
+app.controller("TechCtrl", function($location, $routeParams, $scope, TechFactory) {
+  
+  $scope.techs = [];
 
-  // TechFactory.getAllTechDetails().then((techs) => {
-  //   console.log(techs);
-  //   $scope.techs = techs;
-  // }).catch((error) => {
-  //   console.log(error);
-  // });
+  TechFactory.getAllTechDetails().then((result) => {
+    $scope.techs = result.techs;
+  }).catch((error) => {
+    console.log(error);
+  });
 
 });
