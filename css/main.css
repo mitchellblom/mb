@@ -87,3 +87,10 @@ footer {
   margin-left: -10%;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #1d2315; }
+
+.tech-container {
+  flex-direction: row; }
+
+.tech-card img {
+  height: 50px;
+  width: 50px; }

@@ -124,4 +124,14 @@ footer {
 	-webkit-text-stroke-color: $darkestgreen;
 }
 
-// TOP BIO END
+//// TOP BIO END
+// TECHS
+
+.tech-container {
+	flex-direction: row;
+}
+
+.tech-card img {
+	height: 50px;
+	width: 50px;
+}

@@ -2,12 +2,10 @@
 
 app.controller("TechCtrl", function($location, $routeParams, $scope, TechFactory) {
   
-  console.log("inside tech ctrl");
   $scope.techs = [];
 
-  TechFactory.getAllTechDetails().then((techs) => {
-    console.log(techs);
-    $scope.techs = techs;
+  TechFactory.getAllTechDetails().then((result) => {
+    $scope.techs = result.techs;
   }).catch((error) => {
     console.log(error);
   });

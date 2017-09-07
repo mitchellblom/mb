@@ -4,7 +4,6 @@ app.factory("TechFactory", function ($q, $http, $routeParams) {
 
   const getAllTechDetails = () => {
 
-    console.log("inside factory");
     let techs = [];
 
     return $q(function(resolve, reject){
@@ -13,7 +12,6 @@ app.factory("TechFactory", function ($q, $http, $routeParams) {
         Object.keys(result).forEach((key) => {
           techs.push(result[key]);
           });
-          console.log(techs);
           resolve(techs[0]);
         })
         .catch(function(error){
