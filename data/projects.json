@@ -31,7 +31,7 @@
     "project2": {
       "title": "A Juicy Project",
       "thumbnail": "../images/projects/juice-thumb.png",
-      "brief": "Python/Javascript full stack project demoing use of Flask micro framework to call and display Nutritionix API results. Also used Bootstrap for tables and D3 for visualizations.",
+      "brief": "Python/Javascript full stack project demoing use of Flask micro framework to call, clean, and display Nutritionix API results. Also used Bootstrap for tables and D3 for visualizations.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
       "url": "https://mitchell-juicequiz.herokuapp.com/",
