@@ -1,5 +1,5 @@
 "use strict";
 
-app.controller("NavBarCtrl", function($routeParams, $scope) {
+app.controller("NavBarCtrl", function($location, $scope, ngAnimate, ngSanitize) {
 
 });

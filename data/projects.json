@@ -15,7 +15,7 @@
       "iframeScroll": "no"
     },
     "project1": {
-      "title": "Classfigher II",
+      "title": "Classfighter II",
       "thumbnail": "../images/projects/ii-thumb.png",
       "brief": "jQuery loaded SPA with AJAX calls querying user data from the Treehouse learning site. Pits users against each other and declares a winner along with animation of their badges.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",

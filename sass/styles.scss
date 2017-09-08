@@ -30,7 +30,7 @@ body {
 
 main {
 	height: 70vh;
-	width: 90vw !important;
+	width: 100vw !important;
 }
 
 .headings {
@@ -39,7 +39,7 @@ main {
 }
 
 a {
-	color: $linkblue;
+	color: $links;
 }
 
 //// GLOBAL END
@@ -100,11 +100,16 @@ footer {
 	font-weight: bold;
 }
 
+.welcome-text > * {
+	font-size: 1.2em;
+}
+
 //// MENU END
 // TOP BIO
 
 .bio-div {
 	flex-direction: row;
+	margin-bottom: -30px;
 	
 	img {
 		max-height: 125px;
@@ -153,16 +158,8 @@ footer {
 	width: 100px;
 }
 
+.row .col {
+	padding: 0 .7rem !important;
+}
+
 //// PROJECTS END
-// ANIMATION
-
-main.ng-enter {
-  transition: 0.2s linear all;
-  opacity: 0;
-}
-
-main.ng-enter.ng-enter-active {
-  opacity: 1;
-}
-
-//// ANIMATIONS
