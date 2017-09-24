@@ -4,7 +4,9 @@
       <div class="container" ng-repeat="project in projects">
           <div class="project-card col s12 m6 l3" >
             <h5>{{project.title}}</h5>
-            <img src="{{project.thumbnail}}" alt="project-image" title="{{project.name}}"/>
+            <a href="{{project.github}}" target="_blank">
+              <img src="{{project.thumbnail}}" alt="project-image" title="{{project.name}}"/>
+            </a>
             <p>{{project.brief}}</p>
             <a href="{{project.url}}" target="_blank">Deployed</a> | 
             <a href="{{project.github}}" target="_blank">Repo</a>

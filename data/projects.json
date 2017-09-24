@@ -15,13 +15,13 @@
       "iframeScroll": "no"
     },
     "project1": {
-      "title": "Classfighter II",
-      "thumbnail": "../images/projects/ii-thumb.png",
-      "brief": "jQuery loaded SPA with AJAX calls querying user data from the Treehouse learning site. Pits users against each other and declares a winner along with animation of their badges.",
-      "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
+      "title": "YFinder",
+      "thumbnail": "../images/projects/yfinder-thumb.png",
+      "brief": "Xamarin Forms/C# mobile app for students and professionals to find and rate their favorite hotspots to work and study. It uses iPhone's GPS and WiFi sensors to gauge location & connectivity. It is powered by my YFinder C#/NET Core 2.0 API.",
+      "technologiesUsed": "C#, Xamarin, Xamarin Forms, LINQ, Entity Framework",
       "available": true,
-      "url": "https://mitchellblom.github.io/cageMatch/",
-      "github": "https://github.com/mitchellblom/cagematch",
+      "url": "https://github.com/mitchellblom/YFinderApp",
+      "github": "https://github.com/mitchellblom/YFinderApp",
       "iframeDimensions": {
         "width": 538,
         "height": 712
@@ -43,13 +43,13 @@
       "iframeScroll": "no"
     },
     "project3": {
-      "title": "Bangazon API",
-      "thumbnail": "../images/projects/bang-thumb.png",
-      "brief": "Agile team written C#/NET Web API that makes each ERD resource available to the front end. Wrote and initialized a SQL database with seed data and migrated the database file edits. CRUD with database via command line and DB browser. ",
+      "title": "Classfighter II",
+      "thumbnail": "../images/projects/ii-thumb.png",
+      "brief": "jQuery loaded SPA with AJAX calls querying user data from the Treehouse learning site. Pits users against each other and declares a winner along with animation of their badges.",
       "technologiesUsed": "AngularJS, UI-Bootstrap, Firebase Database and Hosting, Sass, Material Design, Version Control with Github",
       "available": true,
-      "url": "https://github.com/EnRonSwanson/BangazonAPI",
-      "github": "https://github.com/EnRonSwanson/BangazonAPI",
+      "url": "https://mitchellblom.github.io/cageMatch/",
+      "github": "https://github.com/mitchellblom/cagematch",
       "iframeDimensions": {
         "width": 538,
         "height": 712
