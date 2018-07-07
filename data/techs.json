@@ -144,6 +144,11 @@
       "img": "../images/techs/CSharp.png",
       "name": "C#",
       "tags": ["C#", "backend"]
+    },
+    {
+      "img": "../images/techs/Typescript.png",
+      "name": "Typescript",
+      "tags": ["Typescript", "frontend"]
     }
   ]
 }
